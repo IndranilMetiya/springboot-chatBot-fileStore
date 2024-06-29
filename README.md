@@ -6,4 +6,4 @@ curl \
   -d '{"contents":[{"parts":[{"text":"How to learn Springboot"}]}]}' \
   -X POST 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=<Enter Your API Key>'
 
-In this project we can request anything and get response by integrating google gemini which is a free tool, and also implemented filter as well as store all the chat with respect to each session in files. 
+In this project we can request anything and get response by integrating google gemini which is a free tool, and also implemented filter as well as store all the chat with respect to each session in files in txt with custom name. 
